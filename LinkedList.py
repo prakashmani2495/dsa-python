@@ -46,7 +46,7 @@ class LinkedList(object):
 
 	# O(N) Runtime Complexity
 	def remove(self, data):
-		if self.head is not None:
+		if self.head is None:
 			return
 		self.size = self.size - 1
 		currentNode = self.head
@@ -74,4 +74,9 @@ li.insertAtEnd(654)
 
 # Print LinkedList items
 li.traverseList()
+print("Size of LinkedList {}".format(li.length()))
+
+# Remove items in LinkedList
+li.remove(987)
+li.remove(12)
 print("Size of LinkedList {}".format(li.length()))
