@@ -1,3 +1,4 @@
+# AVL Trees - Balalnce Tree Rotate on each insertion/Deletion
 class Node(object):
 
 	def __init__(self, data):
@@ -214,7 +215,7 @@ class AVL(object):
 
 		return tempRightChild 
 
-
+# Testing AVL Trees
 avl = AVL() 
 avl.insert(10) 
 avl.insert(20) 
