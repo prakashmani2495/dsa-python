@@ -1,4 +1,4 @@
-
+# Binary Search Tees - Balanced Tree  Structure
 class Node(object):
 
 	def __init__(self, data):
@@ -116,7 +116,7 @@ class BinarySearchTree(object):
 		if node.rightChild:
 			self.traverseInOrder(node.rightChild)
 			
-			
+# Testing Binary Search Tree			
 bst = BinarySearchTree()
 bst.insert(342)
 bst.insert(778)
